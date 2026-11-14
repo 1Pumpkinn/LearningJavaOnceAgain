@@ -26,5 +26,9 @@ public class JavaInAndOut {
         int number = scanner.nextInt(); // has to be a number
         System.out.println("Your Number isss... " + number + "!");
 
+        System.out.println("Type out a word");
+        String meow = scanner.next();
+        System.out.println("Your (String) is: " + meow);
+
     }
 }
