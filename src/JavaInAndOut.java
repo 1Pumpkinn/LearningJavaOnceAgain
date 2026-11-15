@@ -30,5 +30,14 @@ public class JavaInAndOut {
         String meow = scanner.next();
         System.out.println("Your (String) is: " + meow);
 
+
+        System.out.println("What is your favourite Animal?");
+        String favAnimal = scanner.next();
+        System.out.println("Your Favourite Animal is: " + favAnimal + " so cute so cute!");
+
+
+
+
+
     }
 }

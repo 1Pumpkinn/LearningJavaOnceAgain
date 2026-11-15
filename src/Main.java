@@ -4,6 +4,7 @@ public class Main {
 
         System.out.println("Hello World!");
 
+        new IntegersPlusMath();
         new JavaDatatypes();
         new JavaInAndOut();
 
