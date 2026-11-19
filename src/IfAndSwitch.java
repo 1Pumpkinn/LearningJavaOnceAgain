@@ -70,6 +70,8 @@ public class IfAndSwitch {
         }
 
 
+        // Switch exercise <do this later please and thank you> 19/11/26
+
 
 
     }
