@@ -4,10 +4,11 @@ public class Main {
 
         System.out.println("Hello World!");
 
-        new AssignmentOperators();
-        new IntegersPlusMath();
-        new JavaDatatypes();
-        new JavaInAndOut();
+        new Booleans();
+//        new AssignmentOperators();
+//        new IntegersPlusMath();
+//        new JavaDatatypes();
+//        new JavaInAndOut();
 
     }
 
