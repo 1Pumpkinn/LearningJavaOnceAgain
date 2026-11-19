@@ -102,6 +102,7 @@ public class Booleans {
         boolean canMine3x3Area = (hasPickaxe && (durability >= neededDurability) || isCreative);
 
 
+
         // Drinking Age Example
 
         System.out.println("What is your age?");
