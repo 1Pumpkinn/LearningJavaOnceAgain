@@ -90,7 +90,6 @@ public class IfAndSwitch {
         System.out.println("What is your District Number");
         int districtNumber = scanner.nextInt();
 
-
         switch (districtNumber) {
             case 1:
                 System.out.println("You are in District 1"); break;

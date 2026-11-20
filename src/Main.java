@@ -4,8 +4,7 @@ public class Main {
 
         System.out.println("Hello World!");
 
-
-        new Caculator();
+        new StringsAndStringMethods();
 //        new IfAndSwitch();
 //        new Booleans();
 //        new AssignmentOperators();
@@ -14,7 +13,4 @@ public class Main {
 //        new JavaInAndOut();
 
     }
-
-
-
 }
