@@ -87,10 +87,21 @@ public class StringsAndStringMethods {
             System.out.println("Yep, it's Rose Kin with equals");
         } else {
             System.out.println("Nope, it's not Rose Kin with equals");
+        }
 
+        // Exercise
 
-            // Reminder for future me Do a exercise or two 20/11/26 9:48 PM
+        System.out.println("What is your full name to join the SMP");
+        String fullName = scanner.nextLine().toLowerCase();
 
+        switch(fullName) {
+            case "vishini pickle": System.out.println("Welcome User: " + fullName); break;
+            case "panda polandia": System.out.println("Welcome User: " + fullName); break;
+            case "rose kin": System.out.println("Welcome User: " + fullName); break;
+            case "magnet magneton": System.out.println("Welcome User: " + fullName); break;
+            case "santa eevee": System.out.println("Welcome User: " + fullName); break;
+            case "lua bee": System.out.println("Welcome User: " + fullName); break;
+            default: System.out.println("Welcome Unknown User: " + fullName); break;
         }
     }
 }
