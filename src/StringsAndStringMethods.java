@@ -118,5 +118,14 @@ public class StringsAndStringMethods {
         } else {
             System.out.println("That is not an option");
         }
+
+        // Third Exercise ig?
+        String Contains = "Magnet108";
+        System.out.println("Does the Variable contain Magnet108");
+        if(Contains.contains("Magnet108")) {
+            System.out.println("YEEESS YIIIPPPPPEEEE");
+        } else {
+            System.out.println("NO fuuhhh");
+        }
     }
 }
