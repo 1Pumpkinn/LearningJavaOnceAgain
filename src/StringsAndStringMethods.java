@@ -101,6 +101,7 @@ public class StringsAndStringMethods {
             case "magnet magneton": System.out.println("Welcome User: " + fullName); break;
             case "santa eevee": System.out.println("Welcome User: " + fullName); break;
             case "lua bee": System.out.println("Welcome User: " + fullName); break;
+            case "skull expander": System.out.println("Welcome User: " + fullName); break;
             default: System.out.println("Welcome Unknown User: " + fullName); break;
         }
 
@@ -127,5 +128,9 @@ public class StringsAndStringMethods {
         } else {
             System.out.println("NO fuuhhh");
         }
+
+        // Gulp vro got replaced...
+        System.out.println("Magnet got replaced By:");
+        System.out.println(Contains.replace("Magnet108", "Saturn"));
     }
 }
