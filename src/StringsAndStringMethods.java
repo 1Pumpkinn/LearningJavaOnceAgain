@@ -103,6 +103,20 @@ public class StringsAndStringMethods {
             case "lua bee": System.out.println("Welcome User: " + fullName); break;
             default: System.out.println("Welcome Unknown User: " + fullName); break;
         }
+
+        // Second Exercise
+        System.out.println("Would you rather scream your words or whisper?");
+        String userQuestionOne = scanner.next().toLowerCase();
+        System.out.println("Type out a sentence or a couple words");
+        scanner.nextLine(); // gotta do this as the scanner still remembers the last space key this removes it
+        String sentence1 = scanner.nextLine();
+
+        if(userQuestionOne.equals("whisper")) {
+            System.out.println(sentence1.toLowerCase());
+        } else if (userQuestionOne.equals("scream")) {
+            System.out.println(sentence1.toUpperCase());
+        } else {
+            System.out.println("That is not an option");
+        }
     }
 }
-
