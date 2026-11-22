@@ -1,11 +1,10 @@
 package courseExercises;
 
-import java.util.Random;
 import java.util.Scanner;
 
-public class CourseCalculator {
+public class FirstCourseSession {
 
-    public CourseCalculator() {
+    public FirstCourseSession() {
 
         /* EXERCISE 1a: Easy Calculator
          *
