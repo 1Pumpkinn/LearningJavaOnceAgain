@@ -40,6 +40,7 @@ public class CourseCalculator {
             case "-": System.out.println(a - b); break;
             case "*": System.out.println(a * b); break;
             case "/": System.out.println(a / b); break;
+            default: System.out.println("ERROR: Something unexpected happened!"); break;
         }
 
 
