@@ -1,4 +1,5 @@
-import courseExercises.FirstCourseSession;
+import courseExercises.FirstCalcExercise;
+import courseExercises.FirstMiningExercise;
 
 public class Main {
 
@@ -6,7 +7,8 @@ public class Main {
 
         System.out.println("Hello World!");
 
-        new FirstCourseSession();
+          new FirstMiningExercise();
+//        new FirstCalcExercise();
 //        new StringsAndStringMethods();
 //        new IfAndSwitch();
 //        new Booleans();
