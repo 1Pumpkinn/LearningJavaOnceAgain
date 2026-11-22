@@ -39,15 +39,10 @@ public class FirstMiningExercise {
         String cobweb = "Cobweb Block";
 
         switch (randomBlock) {
-            case 1:
-                System.out.println(clay + " has Appeared");
-                break;
-            case 2:
-                System.out.println(stone + " has Appeared");
-                break;
-            case 3:
-                System.out.println(cobweb + " has Appeared");
-                break;
+            case 1: System.out.println(clay + " has Appeared"); break;
+            case 2: System.out.println(stone + " has Appeared"); break;
+            case 3: System.out.println(cobweb + " has Appeared"); break;
+            default: System.out.println("ERROR: Something happened with the block"); break;
         }
 
         System.out.println("Pick a Tool to mine the block");
@@ -66,21 +61,16 @@ public class FirstMiningExercise {
             System.out.println("You did not use the correct tool for the job!");
         }
 
-            // -----------------------------------------------------------
+        // -----------------------------------------------------------
 
 
             int randomBlock2 = (int) (Math.random() * (max - min + 1)) + min;
 
             switch (randomBlock2) {
-                case 1:
-                    System.out.println(clay + " has Appeared");
-                    break;
-                case 2:
-                    System.out.println(stone + " has Appeared");
-                    break;
-                case 3:
-                    System.out.println(cobweb + " has Appeared");
-                    break;
+                case 1: System.out.println(clay + " has Appeared"); break;
+                case 2: System.out.println(stone + " has Appeared"); break;
+                case 3: System.out.println(cobweb + " has Appeared"); break;
+                default: System.out.println("ERROR: Something happened with the block"); break;
             }
 
             System.out.println("Pick a Tool to mine the block");
@@ -99,21 +89,16 @@ public class FirstMiningExercise {
                 System.out.println("You did not use the correct tool for the job!");
             }
 
-                // -----------------------------------------------------------
+            // -----------------------------------------------------------
 
 
                 int randomBlock3 = (int) (Math.random() * (max - min + 1)) + min;
 
                 switch (randomBlock3) {
-                    case 1:
-                        System.out.println(clay + " has Appeared");
-                        break;
-                    case 2:
-                        System.out.println(stone + " has Appeared");
-                        break;
-                    case 3:
-                        System.out.println(cobweb + " has Appeared");
-                        break;
+                    case 1: System.out.println(clay + " has Appeared"); break;
+                    case 2: System.out.println(stone + " has Appeared"); break;
+                    case 3: System.out.println(cobweb + " has Appeared"); break;
+                    default: System.out.println("ERROR: Something happened with the block"); break;
                 }
 
                 System.out.println("Pick a Tool to mine the block");
