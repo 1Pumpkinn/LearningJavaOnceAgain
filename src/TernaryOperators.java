@@ -33,6 +33,7 @@ public class TernaryOperators {
         int mana = scanner.nextInt();
         String manaStatus = "";
 
+
         manaStatus = (mana > 49) ? "Has enough Mana to cast Ability1" : "Does not have enough Mana to cast Ability1";
         System.out.println(manaStatus);
 
